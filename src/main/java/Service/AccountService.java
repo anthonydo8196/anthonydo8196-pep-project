@@ -24,4 +24,7 @@ public class AccountService {
         return accountDAO.insertAccount(account);
     }
 
+    public Account logAccount(Account account) {
+        return accountDAO.loginAccount(account);
+    }
 }
